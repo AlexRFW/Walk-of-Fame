@@ -12,16 +12,22 @@
 		A2199F472035996F002904E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2199F452035996F002904E0 /* Main.storyboard */; };
 		A2199F492035996F002904E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2199F482035996F002904E0 /* Assets.xcassets */; };
 		A2199F4C2035996F002904E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2199F4A2035996F002904E0 /* LaunchScreen.storyboard */; };
+		A2199F542035A868002904E0 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2199F532035A868002904E0 /* Game.swift */; };
+		A2199F562035E0D7002904E0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A2199F552035E0D6002904E0 /* README.md */; };
+		A2199F582035E2E7002904E0 /* doc in Resources */ = {isa = PBXBuildFile; fileRef = A2199F572035E2E7002904E0 /* doc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A2199F3E2035996F002904E0 /* Apple Pie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple Pie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2199F3E2035996F002904E0 /* Walk of Fame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Walk of Fame.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2199F412035996F002904E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2199F432035996F002904E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A2199F462035996F002904E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2199F482035996F002904E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2199F4B2035996F002904E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2199F4D2035996F002904E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2199F532035A868002904E0 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		A2199F552035E0D6002904E0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A2199F572035E2E7002904E0 /* doc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = doc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +44,9 @@
 		A2199F352035996F002904E0 = {
 			isa = PBXGroup;
 			children = (
-				A2199F402035996F002904E0 /* Apple Pie */,
+				A2199F572035E2E7002904E0 /* doc */,
+				A2199F552035E0D6002904E0 /* README.md */,
+				A2199F402035996F002904E0 /* Walk of Fame */,
 				A2199F3F2035996F002904E0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +54,31 @@
 		A2199F3F2035996F002904E0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A2199F3E2035996F002904E0 /* Apple Pie.app */,
+				A2199F3E2035996F002904E0 /* Walk of Fame.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A2199F402035996F002904E0 /* Apple Pie */ = {
+		A2199F402035996F002904E0 /* Walk of Fame */ = {
 			isa = PBXGroup;
 			children = (
 				A2199F412035996F002904E0 /* AppDelegate.swift */,
 				A2199F432035996F002904E0 /* ViewController.swift */,
 				A2199F452035996F002904E0 /* Main.storyboard */,
 				A2199F482035996F002904E0 /* Assets.xcassets */,
+				A2199F532035A868002904E0 /* Game.swift */,
 				A2199F4A2035996F002904E0 /* LaunchScreen.storyboard */,
 				A2199F4D2035996F002904E0 /* Info.plist */,
 			);
-			path = "Apple Pie";
+			path = "Walk of Fame";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A2199F3D2035996F002904E0 /* Apple Pie */ = {
+		A2199F3D2035996F002904E0 /* Walk of Fame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A2199F502035996F002904E0 /* Build configuration list for PBXNativeTarget "Apple Pie" */;
+			buildConfigurationList = A2199F502035996F002904E0 /* Build configuration list for PBXNativeTarget "Walk of Fame" */;
 			buildPhases = (
 				A2199F3A2035996F002904E0 /* Sources */,
 				A2199F3B2035996F002904E0 /* Frameworks */,
@@ -79,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = "Apple Pie";
+			name = "Walk of Fame";
 			productName = "Apple Pie";
-			productReference = A2199F3E2035996F002904E0 /* Apple Pie.app */;
+			productReference = A2199F3E2035996F002904E0 /* Walk of Fame.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +109,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A2199F392035996F002904E0 /* Build configuration list for PBXProject "Apple Pie" */;
+			buildConfigurationList = A2199F392035996F002904E0 /* Build configuration list for PBXProject "Walk of Fame" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,7 +122,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A2199F3D2035996F002904E0 /* Apple Pie */,
+				A2199F3D2035996F002904E0 /* Walk of Fame */,
 			);
 		};
 /* End PBXProject section */
@@ -123,8 +132,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2199F582035E2E7002904E0 /* doc in Resources */,
 				A2199F4C2035996F002904E0 /* LaunchScreen.storyboard in Resources */,
 				A2199F492035996F002904E0 /* Assets.xcassets in Resources */,
+				A2199F562035E0D7002904E0 /* README.md in Resources */,
 				A2199F472035996F002904E0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2199F442035996F002904E0 /* ViewController.swift in Sources */,
+				A2199F542035A868002904E0 /* Game.swift in Sources */,
 				A2199F422035996F002904E0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,12 +288,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 683MHWUS6T;
-				INFOPLIST_FILE = "Apple Pie/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Walk of Fame/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.alexwitkamp.Apple-Pie";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexwitkamp.Walk-of-Fame";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -291,19 +303,19 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 683MHWUS6T;
-				INFOPLIST_FILE = "Apple Pie/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Walk of Fame/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.alexwitkamp.Apple-Pie";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexwitkamp.Walk-of-Fame";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A2199F392035996F002904E0 /* Build configuration list for PBXProject "Apple Pie" */ = {
+		A2199F392035996F002904E0 /* Build configuration list for PBXProject "Walk of Fame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2199F4E2035996F002904E0 /* Debug */,
@@ -312,7 +324,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A2199F502035996F002904E0 /* Build configuration list for PBXNativeTarget "Apple Pie" */ = {
+		A2199F502035996F002904E0 /* Build configuration list for PBXNativeTarget "Walk of Fame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2199F512035996F002904E0 /* Debug */,

@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Apple Pie
+//  Walk of Fame (based on Apple Pie)
 //
 //  Created by Alex Witkamp on 15-02-18.
 //  Copyright © 2018 Alex Witkamp. All rights reserved.

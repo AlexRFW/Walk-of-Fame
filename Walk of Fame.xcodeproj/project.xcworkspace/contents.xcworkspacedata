@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Apple Pie.xcodeproj">
+      location = "self:/Users/alexwitkamp/Desktop/XCode projecten/Apple Pie/Walk of Fame.xcodeproj">
    </FileRef>
 </Workspace>
