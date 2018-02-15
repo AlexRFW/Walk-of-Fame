@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     // define the names of the game
-    var listOfWords = ["Tom Hanks", "Harrison Ford", "Dwayne Johnson", "Michael Ceaton", "Cameron Diaz", "Johnny Depp", "Jamie Foxx", "Reese Witherspoon", "Daniel Radcliffe", "James Franco", "Ryan Reynolds"]
+    var listOfWords = ["Tom Hanks", "Harrison Ford", "Dwayne Johnson", "Michael Keaton", "Cameron Diaz", "Johnny Depp", "Jamie Foxx", "Reese Witherspoon", "Daniel Radcliffe", "James Franco", "Ryan Reynolds"]
     
     // define the rules of the game
     let incorrectMovesAllowed = 5
